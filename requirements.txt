@@ -1,0 +1,26 @@
+pandas>=2.0
+numpy>=1.25
+scikit-learn>=1.2
+matplotlib>=3.6
+seaborn>=0.12
+plotly>=5.0
+joblib>=1.2
+tqdm>=4.60
+jupyterlab>=4.0
+notebook>=6.5
+ipython>=8.0
+ipykernel>=6.0
+
+# Deep learning
+tensorflow>=2.10  # used by ANN cells (Keras)
+
+# Offline RL (d3rlpy + its deps)
+d3rlpy==2.3.0
+torch>=2.0.0
+gymnasium>=1.2
+fsspec
+cloudpickle
+
+# Misc helpers
+plotly-express
+pandas-summary
